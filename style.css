@@ -1,0 +1,198 @@
+/*
+*** browser style reset
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*
+*** TOP
+*/
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.clipbord_top {
+    width: 800px;
+    height: 150px;
+    background-color:#cdae8d;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.clipbord_bootom {
+    width: 800px;
+    height: 150px;
+    background-color:#cdae8d;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 800px;
+    background-color:#cdae8d;
+    padding:0px 50px;
+}
+
+.todo-form {
+    background-color:#fff;
+    padding: 10px 4px;   
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.todo_container {
+    background-color:#fff;
+    padding: 70px 4px;
+}
+.addItem {
+    background: none;
+    font-size: 40px;
+    color: rgb(40, 50, 185);
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.saveItem {
+    background: none;
+    font-size: 40px;
+    color: rgb(40, 50, 185);
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+
+
+.todo {
+    border: 1px solid black;
+    border-radius: 5px; 
+    height: 40px;
+    width: 600px;
+    padding: 10px;
+    
+}
+
+.todo:focus {
+    border: 1px solid blue;
+    border-radius: 5px; 
+    height: 40px;
+    width: 600px;
+    padding: 10px;
+}
+
+.todo_list {
+
+ background-color:#fff;
+}
+
+
+
+.item {
+   
+    border-bottom: 1px solid #161616;
+    font-size: 20px;
+    width: 650px;
+    padding: 1px;
+}
+
+.item:first-child {
+    border-top: 1px solid #161616; 
+}
+
+.item_todo {
+    display: block;
+    float: left;
+    width: 500px;
+    padding: 10px;
+    word-wrap: break-word; 
+    
+}
+
+
+
+.item_done {
+    
+    float: right;
+    width: 30px;
+    font-size: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+.item_done:hover {
+    color:lightgray;
+    cursor:pointer;
+}
+
+.item_delete {
+    
+    float: right;
+    font-size: 35px;
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.item_edit {
+    
+    float: right;
+    font-size: 35px;
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.item_delete:hover {
+    color:lightcoral;
+    cursor:pointer;
+}
+.item_edit:hover {
+    color:lightskyblue;
+    cursor:pointer;
+}
+.item_cross_out {
+    text-decoration: line-through;
+}
+.item_done_back {
+    background-color: rgb(235, 233, 233);
+}
+.item_done_icon {
+    color:green;
+}
+.save {
+    color:red;
+}
+
+.add {
+    color:grey;
+}
+
