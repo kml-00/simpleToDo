@@ -4,9 +4,11 @@
 It is a simple TODO aplication created with JS and CSS. 
 
 Basic function of app:
--adding todo
--editing todo 
--deleting todo
--marking todo as completed 
+* adding todo
+* editing todo 
+* deleting todo
+* marking todo as completed 
 
-[live demo ](https://htmlpreview.github.io/?https://github.com/kml-00/simpleToDo/master/index.html)
+Click link below to see live demo
+
+[demo ](https://htmlpreview.github.io/?https://github.com/kml-00/simpleToDo/master/index.html)
